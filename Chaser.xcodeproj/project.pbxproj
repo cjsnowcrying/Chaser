@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221711271B40804700CA332B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221711261B40804700CA332B /* AppDelegate.swift */; };
+		2217112A1B40804700CA332B /* Chaser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 221711281B40804700CA332B /* Chaser.xcdatamodeld */; };
+		2217112C1B40804700CA332B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2217112B1B40804700CA332B /* ViewController.swift */; };
+		2217112F1B40804700CA332B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2217112D1B40804700CA332B /* Main.storyboard */; };
+		221711311B40804700CA332B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221711301B40804700CA332B /* Images.xcassets */; };
+		221711341B40804700CA332B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 221711321B40804700CA332B /* LaunchScreen.xib */; };
+		221711401B40804700CA332B /* ChaserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2217113F1B40804700CA332B /* ChaserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2217113A1B40804700CA332B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221711191B40804700CA332B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221711201B40804700CA332B;
+			remoteInfo = Chaser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221711211B40804700CA332B /* Chaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		221711251B40804700CA332B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221711261B40804700CA332B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		221711291B40804700CA332B /* Chaser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chaser.xcdatamodel; sourceTree = "<group>"; };
+		2217112B1B40804700CA332B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2217112E1B40804700CA332B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		221711301B40804700CA332B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		221711331B40804700CA332B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		221711391B40804700CA332B /* ChaserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2217113E1B40804700CA332B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2217113F1B40804700CA332B /* ChaserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2217111E1B40804700CA332B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221711361B40804700CA332B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221711181B40804700CA332B = {
+			isa = PBXGroup;
+			children = (
+				221711231B40804700CA332B /* Chaser */,
+				2217113C1B40804700CA332B /* ChaserTests */,
+				221711221B40804700CA332B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		221711221B40804700CA332B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				221711211B40804700CA332B /* Chaser.app */,
+				221711391B40804700CA332B /* ChaserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		221711231B40804700CA332B /* Chaser */ = {
+			isa = PBXGroup;
+			children = (
+				221711261B40804700CA332B /* AppDelegate.swift */,
+				2217112B1B40804700CA332B /* ViewController.swift */,
+				2217112D1B40804700CA332B /* Main.storyboard */,
+				221711301B40804700CA332B /* Images.xcassets */,
+				221711321B40804700CA332B /* LaunchScreen.xib */,
+				221711281B40804700CA332B /* Chaser.xcdatamodeld */,
+				221711241B40804700CA332B /* Supporting Files */,
+			);
+			path = Chaser;
+			sourceTree = "<group>";
+		};
+		221711241B40804700CA332B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				221711251B40804700CA332B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2217113C1B40804700CA332B /* ChaserTests */ = {
+			isa = PBXGroup;
+			children = (
+				2217113F1B40804700CA332B /* ChaserTests.swift */,
+				2217113D1B40804700CA332B /* Supporting Files */,
+			);
+			path = ChaserTests;
+			sourceTree = "<group>";
+		};
+		2217113D1B40804700CA332B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2217113E1B40804700CA332B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		221711201B40804700CA332B /* Chaser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221711431B40804700CA332B /* Build configuration list for PBXNativeTarget "Chaser" */;
+			buildPhases = (
+				2217111D1B40804700CA332B /* Sources */,
+				2217111E1B40804700CA332B /* Frameworks */,
+				2217111F1B40804700CA332B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chaser;
+			productName = Chaser;
+			productReference = 221711211B40804700CA332B /* Chaser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		221711381B40804700CA332B /* ChaserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221711461B40804700CA332B /* Build configuration list for PBXNativeTarget "ChaserTests" */;
+			buildPhases = (
+				221711351B40804700CA332B /* Sources */,
+				221711361B40804700CA332B /* Frameworks */,
+				221711371B40804700CA332B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2217113B1B40804700CA332B /* PBXTargetDependency */,
+			);
+			name = ChaserTests;
+			productName = ChaserTests;
+			productReference = 221711391B40804700CA332B /* ChaserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221711191B40804700CA332B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Jie;
+				TargetAttributes = {
+					221711201B40804700CA332B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					221711381B40804700CA332B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 221711201B40804700CA332B;
+					};
+				};
+			};
+			buildConfigurationList = 2217111C1B40804700CA332B /* Build configuration list for PBXProject "Chaser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 221711181B40804700CA332B;
+			productRefGroup = 221711221B40804700CA332B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221711201B40804700CA332B /* Chaser */,
+				221711381B40804700CA332B /* ChaserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2217111F1B40804700CA332B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2217112F1B40804700CA332B /* Main.storyboard in Resources */,
+				221711341B40804700CA332B /* LaunchScreen.xib in Resources */,
+				221711311B40804700CA332B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221711371B40804700CA332B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2217111D1B40804700CA332B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2217112C1B40804700CA332B /* ViewController.swift in Sources */,
+				221711271B40804700CA332B /* AppDelegate.swift in Sources */,
+				2217112A1B40804700CA332B /* Chaser.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221711351B40804700CA332B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221711401B40804700CA332B /* ChaserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2217113B1B40804700CA332B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221711201B40804700CA332B /* Chaser */;
+			targetProxy = 2217113A1B40804700CA332B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2217112D1B40804700CA332B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2217112E1B40804700CA332B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		221711321B40804700CA332B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				221711331B40804700CA332B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		221711411B40804700CA332B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		221711421B40804700CA332B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		221711441B40804700CA332B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chaser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		221711451B40804700CA332B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chaser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		221711471B40804700CA332B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChaserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaser.app/Chaser";
+			};
+			name = Debug;
+		};
+		221711481B40804700CA332B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChaserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaser.app/Chaser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2217111C1B40804700CA332B /* Build configuration list for PBXProject "Chaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221711411B40804700CA332B /* Debug */,
+				221711421B40804700CA332B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221711431B40804700CA332B /* Build configuration list for PBXNativeTarget "Chaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221711441B40804700CA332B /* Debug */,
+				221711451B40804700CA332B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		221711461B40804700CA332B /* Build configuration list for PBXNativeTarget "ChaserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221711471B40804700CA332B /* Debug */,
+				221711481B40804700CA332B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		221711281B40804700CA332B /* Chaser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				221711291B40804700CA332B /* Chaser.xcdatamodel */,
+			);
+			currentVersion = 221711291B40804700CA332B /* Chaser.xcdatamodel */;
+			path = Chaser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 221711191B40804700CA332B /* Project object */;
+}
